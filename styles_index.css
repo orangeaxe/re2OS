@@ -104,6 +104,8 @@ footer {
 	text-shadow:0 0 6px gray;
 	width: 100%;
 	margin: 0;
+
+	text-align: right;
 }
 table {
 background-color: black;
