@@ -1,0 +1,189 @@
+.tableaccent {
+	width: 10px;
+	border: 1px solid black;
+	background-color: #4D414F;
+	/*no: it would be too much to ask that colspan work on percentages :'( 
+	its a total fluke this looks like the rollbar but I wanted it more narrow*/
+	/*id*/
+}
+
+a:hover {
+	color:white;
+	text-shadow: 0 0 1px black;
+	/*psudo*/
+}
+
+a {
+	color:white;
+	text-shadow: 0 0 6px gray;
+
+}
+
+.active {
+	color: orange;
+	text-shadow: 0 0 6px gray;
+	
+}
+
+nav a, footer a, #currentDate {
+	color: white;
+	text-shadow: 0 0 3px white;
+	margin: 0 1.5rem;
+}
+
+nav {
+	text-align: center;
+}
+
+body {
+	background-image: url("loricardille.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color:#C5A7CB;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family:"Courier New", Courier, monospace;
+	color: white;
+	text-shadow: 0 0 6px gray, 0 0 6px gray;
+}
+
+h1, h2, h3, ul, li, p {
+	margin: 1%;
+}
+
+h4 {
+	font-family:"Courier New", Courier, monospace;
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 0 6px gray, 0 0 6px gray;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	font-family:"Courier New", Courier, monospace;
+	font-size: 12px;
+	color: black;
+	text-shadow:0 0 6px gray;
+	text-align: right;
+	display: flex;
+	justify-content: space-around;
+}
+
+table {
+background-color: black;
+border: 5px solid #C5A7CB;
+/*border-collapse; collapse;  I don't think this is doing anything */
+	width: 85%;
+	height: 75%;
+	opacity: 0.75;
+	dispaly: flex;
+	position: relative; /*i forgot an i in the word position and spent an hour going insane trying to figure out why the stupid objects wouldn't slot together*/
+	z-index: 5;
+	margin: 0 auto;
+	margin-top: 1%; /* so complicated */
+
+}
+
+td, th {
+	padding: 0;
+}
+
+.interface {
+	width: 4px;
+	height: 3px;
+	border: 3px solid black;
+	background-color: transparent;
+	box-shadow: 0 0 4px 0px gray;
+	margin: 0 auto; /* this is a bit easier than <center> I suppose */
+}
+
+.color {
+	background-color: #C5A7CB;
+	color: black;
+}
+
+.size {
+	width: 20px;
+	position: relative;
+}
+
+
+article, summary {
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #C5A7CB;
+	box-shadow: 0 0 6px #C5A7CB, 0 0 12px #7E5E8C;
+	opacity: 0.5;
+	margin: 4px 0;
+}
+
+form label {
+	display: inline-block;
+	width: 160px;
+	margin-bottom: 8px;
+}
+
+#contactMethod, #contactMethod option {
+	color: black;
+}
+
+button {
+	color: black;
+}
+
+h4 + img, h4 + video, h4 + audio {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fiction p {
+	text-indent: 2em;
+}
+
+mark, ::selection {
+	background-color: #C5A7CB;
+	color: black;
+}
+
+/* attempt 2 correction I must have deleted this while cleaning up the code */
+ul {
+	list-style-type: square;
+}
+
+/*
+D.  Create one external CSS stylesheet that is linked to ALL of your HTML pages. Ensure that your CSS includes the following components, in no particular order, each of which is applied to at least one HTML element in Aspects A, B, or C
+•  / element selector
+•  / class selector
+•  / id selector
+•  / descendant selector
+•  / pseudo-class selector
+•  / universal selector
+•  / typography (font, color, font-style)
+•  / background color
+•  / margin, padding, border
+•  / list-style properties
+*/

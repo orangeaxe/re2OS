@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Index</title>
+		<link rel="stylesheet" href="styles_index.css">
+	</head>
+	<body>
+	<main>
+			<img src="me.jpg" alt="An image of Ryan James" class="profile">
+			<img src="witw.jpg" alt="A rundown car and building" class="mood" height="250" width="400">
+	<table>
+															<!-- Titlebar and UI -->
+		<tr class="color">
+			<th class="size">
+				<div class="interface"></div>
+			</th>
+
+			<th>
+				<nav>
+				&nbsp;
+				<a href="index.html">Index</a> &nbsp;
+				<a href="file.html">File</a> &nbsp;
+				<a href="reui.png">Help</a> &nbsp;
+				</nav>
+			</th>
+
+
+			<th class="size">
+				<div class="interface"></div>
+			</th>
+		</tr>
+															<!-- Begin Screen -->
+
+		<tr>
+<!--			<td colspan="2">
+			<p class="warning">UNDER CONSTRUCTION UNDER CONSTRUCTION UNDER CONSTRUCTION</p>
+</td>--><td colspan="2"></td>
+			<td id="tableaccent" rowspan="4">
+			</td>
+</tr>
+
+<tr><td colspan="2">
+	<header>
+		<h1>Ryan James</h1>
+	</header>
+	
+		<h2>Resume</h2>
+
+		<section>
+
+			<h3>Culinary Experience</h3>
+			<p>
+				Chef / Manager
+			</p>
+			<ul>
+				<li>Menu Development</li>
+				<li>Inventory and Labor Managment</li>
+			</ul>
+		</section>
+		
+		<section>
+			<h3>Fiction & Writing</h3>
+			<p>
+				Manuscripts:
+			</p>
+			<ul>
+				<li>Recutlikine - Fantasty</li>
+				<li>Space Junk - Science Fiction</li>
+				<li>At the Bottom - Science Fiction</li>
+				<li>The Nobodies - Horror</li>
+			</ul>
+		</section>
+
+		<section>
+			<h3>Certifications</h3>
+			<p>
+			<ul>
+				<li>A+</li>
+				<li>Security+</li>
+				<li>Network+</li>
+				<li>AWS Cloud Practitioner</li>
+				<li>ITIL</li>
+			</p>
+		</section>
+
+			</td>
+		<tr>
+			<td colspan="2">
+	
+		<article>
+			<p>I am an experienced chef and restaurant manager with <em>a background in leading high-volume, guest-focused operations</em>, now expanding my skill set into IT and cloud computing. I write speculative fiction across multiple generes and bring creativity and discipline to all aspects of my life.</p>
+		</article>
+			<section>
+					<hr>
+				<table class="summary">
+				<!-- I'm including the kitchen sink, can't be too careful
+                        ___
+                      .' _ '.
+                     / /` `\ \
+                     | |   [__]
+                     | |    {{
+                     | |    }}
+                  _  | |  _ {{
+      ___________<_>_| |_<_>}}________
+          .=======^=(___)=^={{====.
+         / .----------------}}---. \
+        / /|                {{   |\ \
+       / / |                }}   | \ \
+      (  '========================='  )
+ jgs   '-----------------------------'
+--> 
+			<caption>Professional Highlights at a Glance</caption>
+			<tr id="tableaccent">
+				<td><strong>Area</strong></td>
+				<td><strong>Experience</strong></td>
+				<td><strong>Focus</strong></td>
+				<td><strong>Example</strong></td>
+			</tr>
+			<tr id="tableaccent">
+				<td>Culinary</td>
+				<td>20+ years</td>
+				<td>Chef / Manager</td>
+				<td>Iron Rabbit, Cynara</td>
+			</tr>
+			<tr id="tableaccent">
+				<td>Writing</td>
+				<td>Critique</td>
+				<td>Conferences</td>
+				<td>OLY WG</td>
+			</tr>
+			<tr id="tableaccent">
+				<td>Technology</td>
+				<td>Networks and Apps</td>
+				<td>Certifications</td>
+				<td>CompTIA, AWS</td>
+			</tr>
+			</table>
+			</section>
+			</td>
+		</tr>
+
+															<!-- Bottom Bar -->
+		<tr bgcolor="#C5A7CB">
+			<td colspan="2">
+				<footer>
+				<div id="currentDate"></div>
+		<a href="mailto:rdail25@wgu.edu">&copy;Ryan Dailey</a>
+	</footer>
+			</td>
+		</tr>
+	</table>
+	</center>
+	</main>
+
+<!-- yay, js time. add a dollar sign every time you throw a typo $$ (I commented in css, not html :D -->
+<script>
+	const dateDiv = document.getElementById("currentDate");
+	const today = new Date();
+	
+	dateDiv.textContent = today.toDateString();
+	console.log("Date populated successfully.");
+	
+</script>
+
+<!--
+This took wayyyy longer than I thought it would, and it isn't what I would want it to be exactly.
+
+Create an HTML-based résumé that includes each of the following elements, in no particular order:
+Note: A hypothetical résumé is acceptable for this task.
+
+•  / basic structure:
+-  / html
+-  / head
+-  / title
+-  / body
+
+•   Content Organization:
+-  / header
+-  / nav
+~  / links to other documents in the portfolio
+-  / main
+-  / section
+-  / footer
+-  / article
+
+•   Text and Content:
+-  / at least three heading elements (h1–h6)
+-  / span
+-  / paragraph
+-  / line break
+-  / horizontal rule
+-  / div to contain the current date
+
+•   Links and Lists:
+-  / hyperlink
+-  / ordered or unordered list
+
+•   Tables
+-  / table with a caption
+-  / table with four columns and three rows
+
+•   Semantic and Miscellaneous
+-  / strong
+-  / em
+
+•   Interactive and Scripting
+-  / script
+~  / JavaScript to populate the date (within div defined above in Text and Content)
+~  / JavaScript to write an appropriate message or value to the console
+-->
+
+	</body>
+</html>

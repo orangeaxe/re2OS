@@ -1,0 +1,194 @@
+
+.warning {
+	background: repeating-linear-gradient(150deg, black 0px, black 12px, yellow, yellow 24px);
+	color:white;
+	text-shadow: 0 0 6px black, 0 0 6px yellow, 0 0 6px black, 0 0 6px black, 0 0 6px black; /*I'll make you stand out, c'mon, I can add zeros sixes and black all day*/
+	font-weight: bold; /*class*/
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	/* this is fun but not relevant*/
+}
+	
+
+#tableaccent {
+	width: 10px;
+	border: 1px solid black;
+	background-color: #4D414F;
+	/*no: it would be too much to ask that colspan work on percentages :'( 
+	its a total fluke this looks like the rollbar but I wanted it more narrow*/
+	/*id*/
+}
+
+h2 em {
+	font-family:"Courier New", Courier, monospace;
+	color:white;
+	text-shadow: 0 0 6px gray;
+	/*descendant*/
+}
+
+a:hover {
+	color:white;
+	text-shadow: 0 0 1px black;
+	/*psudo*/
+}
+
+a {
+	color:white;
+	text-shadow: 0 0 6px gray;
+
+}
+
+nav a, footer a, #currentDate {
+	color: black;
+	text-shadow: 0 0 1px gray;
+
+}
+
+nav {
+	text-align: left;
+}
+
+body {
+	background-image: url("loricardille.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color:#C5A7CB;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	/*background color*/
+}
+
+* {
+	font-family:"Courier New", Courier, monospace;
+	color:white;
+	text-shadow: 0 0 6px gray, 0 0 6px gray;
+
+	/*typography*/
+}
+
+h1, h2, h3, ul, li, p {
+	font-family:"Courier New", Courier, monospace;
+	color:white;
+	text-shadow: 0 0 6px gray, 0 0 6px gray;
+	margin: 1%;
+	/*typography*/
+}
+
+header {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	font-family:"Courier New", Courier, monospace;
+	font-size: 12px;
+	color: black;
+	text-shadow:0 0 6px gray;
+	text-align: right;
+	display: flex;
+	justify-content: space-around;
+}
+
+.summary {
+	font-family:"Courier New", Courier, monospace;
+	font-size: 12px;
+	color: black;
+	text-shadow:0 0 6px gray;
+	width: 100%;
+	margin: 0;
+}
+table {
+background-color: black;
+border: 5px solid #C5A7CB;
+/*border-collapse; collapse;  I don't think this is doing anything */
+	width: 85%;
+	height: 75%;
+	opacity: 0.75;
+	dispaly: flex;
+	position: relative; /*i forgot an i in the word position and spent an hour going insane trying to figure out why the stupid objects wouldn't slot together*/
+	z-index: 5;
+	margin: 0 auto;
+	margin-top: 1%; /* so complicated */
+
+}
+
+td, th {
+	padding: 0;
+}
+
+.interface {
+	width: 4px;
+	height: 3px;
+	border: 3px solid black;
+	background-color: transparent;
+	box-shadow: 0 0 4px 0px gray;
+	margin: 0 auto; /* this is a bit easier than <center> I suppose */
+}
+
+.color {
+	background-color: #C5A7CB;
+}
+
+.size {
+	width: 20px;
+	dispaly: flex;
+	position: relative;
+}
+
+.profile {
+	position: fixed;
+	top: 15%;
+	right: 3%;
+	/*transform: tranlateY(-50%);*/
+	opacity: 0.95;
+	z-index: 3;
+	pointer-events: none; /* this might be necessary as not to cover links */
+}
+
+.mood {
+	position: fixed;
+	top: 60%;
+	right: 6%;
+	/*transform: tranlateY(-50%);*/
+	opacity: 0.95;
+	z-index: 2;
+	pointer-events: none; /* this might be necessary as not to cover links */
+	border: 4px solid #3E3340;
+}
+
+article, summary {
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #C5A7CB;
+	box-shadow: 0 0 6px #C5A7CB, 0 0 12px #7E5E8C;
+	opacity: 0.5;
+	margin: 4px 0;
+}
+
+/*
+D.  Create one external CSS stylesheet that is linked to ALL of your HTML pages. Ensure that your CSS includes the following components, in no particular order, each of which is applied to at least one HTML element in Aspects A, B, or C
+•  / element selector
+•  / class selector
+•  / id selector
+•  / descendant selector
+•  / pseudo-class selector
+•  / universal selector
+•  / typography (font, color, font-style)
+•  / background color
+•  / margin, padding, border
+•  / list-style properties
+*/
