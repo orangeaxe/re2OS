@@ -116,7 +116,7 @@ border: 5px solid #C5A7CB;
 	position: relative; /*i forgot an i in the word position and spent an hour going insane trying to figure out why the stupid objects wouldn't slot together*/
 	z-index: 5;
 	margin: 0 auto;
-	margin-top: 1%; /* so complicated */
+	/*margin-top: 1%; */
 
 }
 
