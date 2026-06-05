@@ -121,6 +121,18 @@ border: 5px solid #C5A7CB;
 	/*margin-top: 1%; */
 
 }
+table.summary {
+	background-color: #C5A7CB;
+	border: none;
+	width: 100%;
+	opacity: 1;
+	margin: 0;
+	display: table;
+}
+
+table.summary td {
+	text-align: right;
+}
 
 td, th {
 	padding: 0;
